@@ -1,12 +1,4 @@
 /**
- * Alias for {@link Terrasoft.utils.common#getMouseButton}
- * @member Terrasoft
- * @method getMouseButton
- * @inheritdoc Terrasoft.utils.common#getMouseButton
- */
-Terrasoft.getMouseButton = Terrasoft.utils.common.getMouseButton;
-
-/**
  * Shows input window.
  * @param  {String} caption Window caption.
  * @param  {Function} handler Buttons handler and ESC key press handler.
