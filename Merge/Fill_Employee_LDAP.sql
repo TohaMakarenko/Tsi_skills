@@ -17,6 +17,7 @@ USING (SELECT
 		JOIN [SysAdminUnit] AS [Role]
 			ON [Role].id = [SUIR1].SysRoleId
 		WHERE [SUIR1].[SysUserId] = [User].[Id]
+			AND [Role].[SysAdminUnitTypeValue] = 1
 	) Role
 ) src
 ON trg.[ContactId] = src.[ContactId]
